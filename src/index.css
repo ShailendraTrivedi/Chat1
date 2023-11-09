@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.blader{
+  @apply border-2 border-black
+}
+
+.input{
+  @apply border-2 border-black focus:outline-none
+}
