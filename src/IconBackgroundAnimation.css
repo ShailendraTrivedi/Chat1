@@ -1,12 +1,10 @@
-/* IconBackgroundAnimation.css (CSS for React Component) */
 
-/* Resetting default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Styling for the entire section of the webpage */
+
 #background-section {
   position: relative;
   min-width: 100%;
@@ -18,7 +16,6 @@
   overflow: hidden;
 }
 
-/* Styling for a row of elements */
 .row {
   position: relative;
   top: -30rem;
@@ -29,27 +26,25 @@
   gap: 10px;
   font-size: 30px;
   transform: rotate(-30deg);
-  animation: moveAnimation 5s linear infinite; /* Adding continuous movement animation */
+  animation: moveAnimation 5s linear infinite; 
 }
-
-/* Styling for FontAwesome icons */
 i {
   color: rgb(9, 154, 202);
-  transition: color 1s; /* Adding a smooth color transition effect */
+  transition: color 1s; 
   cursor: pointer;
 }
 
-/* Styling for icons when hovered */
+
 i:hover {
-  transition: color 0s; /* Removing the transition for an instant color change */
-  color: white; /* Changing icon color on hover */
-  /* Adding a text shadow effect on hover */
+  transition: color 0s;
+  color: white;
+ 
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white,
     0 0 50px white, 0 0 60px white, 0 0 70px white, 0 0 80px white,
     0 0 90px white, 0 0 100px white;
 }
 
-/* Keyframes for moveAnimation */
+
 @keyframes moveAnimation {
   0% {
     transform: translateY(100%);
