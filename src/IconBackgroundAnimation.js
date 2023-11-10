@@ -41,8 +41,7 @@ const IconBackgroundAnimation = () => {
 
   return (
     <section id="background-section" className="sm:max-h-screen ">
-      {/* Rows and icons will be added dynamically */}
-    </section>
+     </section>
   );
 };
 
